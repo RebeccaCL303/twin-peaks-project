@@ -1,17 +1,52 @@
+body {
+    background-color: black;
+}
+
 .container {
-    max-width: 1000px;
+    max-width: 1400px;
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
+    background-color: #303436;
+    color: white;
+}
 
+a {
+    color: rgb(68, 255, 0);
+}
+
+footer {
+    border-top: 5px double white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/skyline.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-section {
+    margin: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer p {
+    opacity: 0.9;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/black-lodge.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/black-lodge.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     padding: 75px 0px;
-    color: white;
     text-shadow: -1px -1px 10px rgba(0, 0, 0, 0.9);
 }
 
@@ -22,8 +57,9 @@ h1 {
     font-weight: 400;
 }
 
-h3 {
+ header h3 {
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 1px;
 }
+
