@@ -1,3 +1,7 @@
+:root {
+    --main-green: rgb(0,255,0);
+}
+
 body {
     background-color: black;
 }
@@ -11,7 +15,8 @@ body {
 }
 
 a {
-    color: rgb(68, 255, 0);
+    color: var(--main-green);
+    transition: 200ms all ease-in-out;
 }
 
 footer {
@@ -25,6 +30,10 @@ footer {
 
 .footer-section {
     margin: 20px;
+}
+
+footer a:hover {
+    color: white;
 }
 
 footer ul {
@@ -57,9 +66,25 @@ h1 {
     font-weight: 400;
 }
 
- header h3 {
-    font-size: 20px;
+
+header h3 {
+    font-size: 30px;
     font-weight: 400;
     letter-spacing: 1px;
+    margin-bottom: 80px;
+}
+
+header a {
+    text-decoration: none;
+    border: 1px solid var(--main-green);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+header a:hover {
+    color: white;
+    border-color: white;
 }
 
