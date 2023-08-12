@@ -10,8 +10,10 @@ body {
     max-width: 1400px;
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
-    background-color: #303436;
+    background-color: #252422;
     color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
 a {
@@ -35,12 +37,13 @@ a {
 }
 
 footer {
-    border-top: 5px double white;
-    color: white;
+    border-top: 1px solid grey;
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/skyline.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 footer section {
@@ -54,12 +57,6 @@ footer a:hover {
 footer ul {
     list-style: none;
     padding: 0;
-}
-
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
 }
 
 header {
@@ -79,9 +76,6 @@ h1 {
     font-weight: 400;
 }
 
-p {
-    opacity: 0.9;
-}
 
 header h3 {
     font-size: 30px;
@@ -109,4 +103,8 @@ main h3 {
     margin: 0;
     color: var(--main-green);
     font-family: 'Edu SA Beginner', cursive;
+}
+
+p {
+    opacity: 0.9;
 }
