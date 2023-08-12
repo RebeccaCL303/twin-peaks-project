@@ -1,110 +1,141 @@
 :root {
-    --main-green: rgb(0,255,0);
+  --main-green: rgb(0, 255, 0);
 }
 
 body {
-    background-color: black;
+  background-color: black;
 }
 
 .container {
-    max-width: 1400px;
-    font-family: 'Poppins', sans-serif;
-    margin: 0 auto;
-    background-color: #252422;
-    color: white;
-    border: 1px solid grey;
-    border-radius: 5px;
+  max-width: 1400px;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  background-color: #181a1b;
+  color: white;
+  border-radius: 5px;
 }
 
 a {
-    color: var(--main-green);
-    transition: 200ms all ease-in-out;
+  color: var(--main-green);
+  transition: 200ms all ease-in-out;
 }
 
 .basic-info {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.cast-grid {
+    grid-template-columns: repeat(7, 1fr);
     grid-gap: 10px;
-    padding: 80px 0px;
+    overflow-x: auto;
+}
+
+.card {
+    max-width: 200px;
 }
 
 .container h3 {
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-shadow: -1px -1px -1px rgba(0, 0, 0,);
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-shadow: -1px -1px -1px rgba(0, 0, 0);
 }
 
 footer {
-    border-top: 1px solid grey;
-    font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/skyline.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid grey;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/skyline.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 footer section {
-    margin: 20px;
+  margin: 20px;
 }
 
 footer a:hover {
-    color: white;
+  color: white;
 }
 
 footer ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.grid {
+    display: grid;
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/black-lodge.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    padding: 75px 0px;
-    text-shadow: -1px -1px -1px rgba(0, 0, 0, 0.9);
-    border-bottom: 1px solid grey;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/black-lodge.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 75px 0px;
+  text-shadow: -1px -1px -1px rgba(0, 0, 0, 0.9);
+  border-bottom: 1px solid grey;
 }
 
 h1 {
-    font-size: 110px;
-    letter-spacing: 3px;
-    font-family: 'Edu SA Beginner', cursive;
-    font-weight: 400;
+  font-size: 110px;
+  letter-spacing: 3px;
+  font-family: "Cabin Sketch", cursive;
+  font-weight: 400;
+  color: var(--main-green);
 }
 
-
-header h3 {
-    font-size: 30px;
-    margin-bottom: 80px;
-}
-
-header a {
-    text-decoration: none;
-    border: 1px solid var(--main-green);
-    border-radius: 5px;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
+h4 {
     font-size: 20px;
 }
 
+header h3 {
+  font-size: 30px;
+  margin-bottom: 80px;
+}
+
+header a {
+  text-decoration: none;
+  border: 1px solid var(--main-green);
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+}
+
 header a:hover {
-    color: white;
-    border-color: white;
+  color: white;
+  border-color: white;
+}
+
+.img-responsive {
+    max-width: 100%;
+    display: block;
 }
 
 main h3 {
-    letter-spacing: 1px;
-    font-weight: 400;
-    font-size: 35px;
-    margin: 0;
-    color: var(--main-green);
-    font-family: 'Edu SA Beginner', cursive;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 35px;
+  margin: 0;
+  color: var(--main-green);
+  font-family: "Cabin Sketch", cursive;
+}
+
+main section {
+  background-color: #1f2122;
+  margin: 30px auto;
+  border-radius: 5px;
+  max-width: 1200px;
+  padding: 50px;
 }
 
 p {
-    opacity: 0.9;
+  opacity: 0.9;
+}
+
+.text-center {
+  text-align: center;
 }

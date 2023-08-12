@@ -1,87 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Twin Peaks</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-   href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-   rel="stylesheet"
-  />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-   href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-   rel="stylesheet"
-  />
-  <link rel="stylesheet" href="src/style.css" />
- </head>
- <body>
-  <div class="container">
-   <header>
-    <h1>Twin Peaks</h1>
-    <h3>American TV Series created by David Lynch and Mark Frost</h3>
-    <a
-     href="https://www.tvguide.com/tvshows/twin-peaks/1030204942/"
-     target="_blank"
-     >Where to Watch</a
-    >
-   </header>
-   <main>
-    <section class="basic-info">
-     <div>
-      <img src="images/twin-peaks-logo.jpg" alt="twin peaks logo" />
-     </div>
-     <div>
-      <h3>A unique blend of many genres</h3>
-      <p>
-       The series follows an investigation, headed by FBI Special Agent Dale
-       Cooper and local Sheriff, into the murder of homecoming queen Laura
-       Palmer in the fictional town of Twin Peaks, Washington.
-       <br />
-       <br />
-       The show's narrative draws on elements of detective fiction, but its
-       uncanny tone, supernatural elements, and campy, melodramatic portrayal of
-       eccentric characters also draws from American soap opera and horror
-       tropes. Like much of Lynch's work, it is distinguished by surrealism,
-       offbeat humor, and distinctive cinematography.
-      </p>
-     </div>
-    </section>
-   </main>
-   <footer>
-    <section>
-     <h3>Want more Twin Peaks Content?</h3>
-     <ul>
-      <li>
-       <a href="https://twinpeaks.fandom.com/wiki/Twin_Peaks">Fanmade Wiki</a>
-      </li>
-      <li><a href="https://www.imdb.com/title/tt0098936/trivia/">Trivia</a></li>
-      <li>
-       <a href="https://en.wikipedia.org/wiki/Twin_Peaks"
-        >Twin Peaks on Wikipedia</a
-       >
-      </li>
-     </ul>
-    </section>
-    <section>
-     <h3>About Me</h3>
-     <p>
-      My name is Rebecca, and I've been a big fan of Twin Peaks ever since I
-      first saw it. It's definetely one of my favorite shows.
-     </p>
-    </section>
-    <section>
-     <h3>About this Website</h3>
-     <p>
-      This site is my project for SheCodes Responsive Add-On. I made it while
-      learning to improve my coding skills and knowledge. The code is
-      <a href="https://github.com/BEX-0/twin-peaks-project">open source</a>.
-     </p>
-    </section>
-   </footer>
-  </div>
- </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twin Peaks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Twin Peaks</h1>
+        <h3>American TV Series created by David Lynch and Mark Frost</h3>
+        <a
+          href="https://www.tvguide.com/tvshows/twin-peaks/1030204942/"
+          target="_blank"
+          >Where to Watch</a
+        >
+      </header>
+      <main>
+        <section class="basic-info grid">
+          <div>
+            <img src="images/twin-peaks-logo.jpg" alt="twin peaks logo" class="img-responsive" />
+          </div>
+          <div>
+            <h3>A unique blend of many genres</h3>
+            <p>
+              The series follows an investigation, headed by FBI Special Agent
+              Dale Cooper and local Sheriff, into the murder of homecoming queen
+              Laura Palmer in the fictional town of Twin Peaks, Washington.
+              <br />
+              <br />
+              The show's narrative draws on elements of detective fiction, but
+              its uncanny tone, supernatural elements, and campy, melodramatic
+              portrayal of eccentric characters also draws from American soap
+              opera and horror tropes. Like much of Lynch's work, it is
+              distinguished by surrealism, offbeat humor, and distinctive
+              cinematography.
+            </p>
+          </div>
+        </section>
+        <section class="cast text-center">
+            <h3>Meet the Cast</h3>
+            <div class="grid cast-grid">
+                <div class="card">
+                    <img src="images/cast/kyle-maclachlan.jpg" alt="Kyle Maclachlan" class="img-responsive">
+                    <h4>Kyle Maclachlan</h4>
+                    <p>FBI Agent Dale Cooper</p>
+                </div>
+                <div class="card">
+                    <img src="images/cast/kyle-maclachlan.jpg" alt="Kyle Maclachlan" class="img-responsive">
+                    <h4>Kyle Maclachlan</h4>
+                    <p>FBI Agent Dale Cooper</p>
+                </div>
+                <div class="card">
+                    <img src="images/cast/kyle-maclachlan.jpg" alt="Kyle Maclachlan" class="img-responsive">
+                    <h4>Kyle Maclachlan</h4>
+                    <p>FBI Agent Dale Cooper</p>
+                </div>
+                <div class="card">
+                    <img src="images/cast/kyle-maclachlan.jpg" alt="Kyle Maclachlan" class="img-responsive">
+                    <h4>Kyle Maclachlan</h4>
+                    <p>FBI Agent Dale Cooper</p>
+                </div>
+                <div class="card">
+                    <img src="images/cast/kyle-maclachlan.jpg" alt="Kyle Maclachlan" class="img-responsive">
+                    <h4>Kyle Maclachlan</h4>
+                    <p>FBI Agent Dale Cooper</p>
+                </div>
+                <div class="card">
+                    <img src="images/cast/kyle-maclachlan.jpg" alt="Kyle Maclachlan" class="img-responsive">
+                    <h4>Kyle Maclachlan</h4>
+                    <p>FBI Agent Dale Cooper</p>
+                </div>
+                <div class="card">
+                    <img src="images/cast/kyle-maclachlan.jpg" alt="Kyle Maclachlan" class="img-responsive">
+                    <h4>Kyle Maclachlan</h4>
+                    <p>FBI Agent Dale Cooper</p>
+                </div>
+            </div>
+            <p><strong>Note:</strong> This is only a list of the main cast members. Click <a href="https://www.imdb.com/title/tt0098936/fullcredits" target="_blank">here</a> for a complete list.</p>
+        </section>
+      </main>
+      <footer class="grid">
+        <section>
+          <h3>Want more Twin Peaks Content?</h3>
+          <ul>
+            <li>
+              <a href="https://twinpeaks.fandom.com/wiki/Twin_Peaks"
+                >Fanmade Wiki</a
+              >
+            </li>
+            <li>
+              <a href="https://www.imdb.com/title/tt0098936/trivia/">Trivia</a>
+            </li>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Twin_Peaks"
+                >Twin Peaks on Wikipedia</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3>About Me</h3>
+          <p>
+            My name is Rebecca, and I've been a big fan of Twin Peaks ever since
+            I first saw it. It's definetely one of my favorite shows.
+          </p>
+        </section>
+        <section>
+          <h3>About this Website</h3>
+          <p>
+            This site is my project for SheCodes Responsive Add-On. I made it
+            while learning to improve my coding skills and knowledge. The code
+            is
+            <a href="https://github.com/BEX-0/twin-peaks-project">open source</a
+            >.
+          </p>
+        </section>
+      </footer>
+    </div>
+  </body>
 </html>
