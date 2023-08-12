@@ -114,18 +114,10 @@ header a:hover {
   border-color: white;
 }
 
-h5 {
-  margin: 0;
-  font-size: 15px;
-  opacity: 0.6;
-}
-
 iframe {
   aspect-ratio: 16 / 9;
-  padding: 30px;
-  width: 75%;
-  margin: 0 auto;
-  display: block;
+  width: 100%;
+  margin-right: 50px;
   border-radius: 8px;
 }
 
