@@ -21,11 +21,13 @@ a {
 }
 
 .basic-info {
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
 }
 
 .cast-grid {
+  display: grid;
   margin-top: 20px;
   grid-template-columns: repeat(7, 1fr);
   grid-gap: 10px;
@@ -39,15 +41,16 @@ a {
   border-radius: 5px;
 }
 
-.cinema-grid-sm {
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+.cinema-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
 
-.cinema-grid-lg {
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+.cinema-post iframe {
+  border: 1px solid var(--main-green);
 }
 
 .container h3 {
@@ -63,7 +66,9 @@ footer {
     url("../images/skyline.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding: 10px 15px;
 }
 
 footer section {
@@ -77,10 +82,6 @@ footer a:hover {
 footer ul {
   list-style: none;
   padding: 0;
-}
-
-.grid {
-  display: grid;
 }
 
 header {
