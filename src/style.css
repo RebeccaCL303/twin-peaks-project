@@ -26,17 +26,28 @@ a {
 }
 
 .cast-grid {
-    margin-top: 20px;
-    grid-template-columns: repeat(7, 1fr);
-    grid-gap: 10px;
-    overflow-x: auto;
+  margin-top: 20px;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+  overflow-x: auto;
 }
 
 .card {
-    max-width: 250px;
-    background-color: #2a2d2e;
-    padding: 20px;
-    border-radius: 5px;
+  max-width: 250px;
+  background-color: #2a2d2e;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.cinema-grid-sm {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.cinema-grid-lg {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .container h3 {
@@ -69,7 +80,7 @@ footer ul {
 }
 
 .grid {
-    display: grid;
+  display: grid;
 }
 
 header {
