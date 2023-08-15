@@ -64,6 +64,11 @@ a {
   text-shadow: -1px -1px -1px rgba(0, 0, 0);
 }
 
+.filter {
+  filter: brightness(70%) contrast(105%);
+
+}
+
 footer {
   border-top: 1px solid grey;
   font-family: "Poppins", sans-serif;
