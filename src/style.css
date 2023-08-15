@@ -35,15 +35,14 @@ a {
 }
 
 .card {
-  max-width: 250px;
+  width: 120px;
+  height: 335px;
   background-color: #2a2d2e;
   padding: 20px;
   border-radius: 5px;
 }
 
 .cinema-grid {
-  max-width: 1000px;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
@@ -85,14 +84,14 @@ footer ul {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  text-align: center;
+  padding: 75px 0px;
+  text-shadow: -1px -1px 10px rgba(0, 0, 0, 0.9);
+  border-bottom: 1px solid grey;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/black-lodge.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
-  padding: 75px 0px;
-  text-shadow: -1px -1px -1px rgba(0, 0, 0, 0.9);
-  border-bottom: 1px solid grey;
 }
 
 h1 {
@@ -104,7 +103,7 @@ h1 {
 }
 
 h4 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 header h3 {
@@ -133,8 +132,8 @@ iframe {
 }
 
 .img-responsive {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 main h3 {
@@ -143,11 +142,9 @@ main h3 {
   font-size: 35px;
   margin: 0px 0px 20px 0px;
   color: var(--main-green);
-  font-family: "Cabin Sketch", cursive;
 }
 
 main section {
-  background-color: #1f2122;
   margin: 30px auto;
   border-radius: 5px;
   max-width: 1200px;
@@ -158,8 +155,22 @@ p {
   opacity: 0.9;
 }
 
+.section-gray-filler {
+  background-color: #1f2122;
+}
+
 .text-center {
   text-align: center;
+}
+
+table {
+  overflow-x: auto;
+}
+
+table img {
+  width: 140px;
+  height: 225px;
+  margin: 0 auto;
 }
 
 .trailer iframe {
