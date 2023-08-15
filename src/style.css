@@ -91,7 +91,7 @@ footer ul {
 
 header {
   text-align: center;
-  padding: 100px 0px;
+  padding: 65px 0px;
   text-shadow: -1px -1px 10px rgba(0, 0, 0, 0.9);
   border-bottom: 1px solid grey;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -101,9 +101,10 @@ header {
 }
 
 h1 {
-  font-size: 110px;
-  letter-spacing: 3px;
-  font-family: "Cabin Sketch", cursive;
+  font-size: 130px;
+  letter-spacing: 7px;
+  margin-bottom: 20px;
+  font-family: 'Koulen', cursive;
   font-weight: 400;
   color: var(--main-green);
 }
@@ -235,7 +236,7 @@ th {
 
   header h3 {
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
 
   header a {
