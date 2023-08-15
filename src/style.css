@@ -102,7 +102,7 @@ h1 {
   color: var(--main-green);
 }
 
-h4 {
+h5 {
   font-size: 20px;
 }
 
@@ -155,7 +155,7 @@ p {
   opacity: 0.9;
 }
 
-.section-gray-filler {
+.gray-filler {
   background-color: #1f2122;
 }
 
@@ -163,14 +163,30 @@ p {
   text-align: center;
 }
 
-table {
+.table-container {
   overflow-x: auto;
+}
+
+table {
+  margin: 10px;
+  border-radius: 8px;
 }
 
 table img {
   width: 140px;
   height: 225px;
   margin: 0 auto;
+}
+
+table h5, table p {
+  margin: 5px;
+  font-size: 16px;
+}
+
+th {
+  color: var(--main-green);
+  font-size: 18px;
+  opacity: 0.8;
 }
 
 .trailer iframe {
@@ -221,6 +237,10 @@ table img {
 
   main section {
     padding: 10px;
+  }
+
+  table {
+    width: 800px;
   }
 
   .trailer iframe {
