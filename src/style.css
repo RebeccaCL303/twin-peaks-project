@@ -26,6 +26,12 @@ a {
   grid-gap: 10px;
 }
 
+.basic-info img {
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+}
+
 .cast-grid {
   display: grid;
   margin-top: 20px;
@@ -199,7 +205,7 @@ th {
     text-align: center;
   }
   
-  .basic-info img {
+  .basic-info img, .basic-info small {
     display: none;
   }
   
